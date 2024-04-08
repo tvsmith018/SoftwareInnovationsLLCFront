@@ -1,0 +1,57 @@
+.serviceSection {
+    color: rgb(75, 68, 104); 
+    margin-top: 16px;
+}
+
+.h3Style {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tabContainer {
+    margin-top: 24px;
+    padding: 0 32px;
+}
+
+.serviceImgs {
+    height: auto;
+}
+
+.paragraphContainer {
+    text-align: justify;
+    margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) { 
+    
+    .serviceImgs {
+        width: 500px;
+        height: 300px;
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .paragraphContainer {
+        width: 550px;
+        margin: 16px auto 0;
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    .serviceImgs {
+        width: 60%;
+        height: auto;
+
+        max-width: 600px;
+    }
+
+    .paragraphContainer {
+        width: 60%;
+        margin: 32px auto 0;
+
+        max-width: 600px;
+    }
+
+
+}

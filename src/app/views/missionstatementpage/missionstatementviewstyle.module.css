@@ -1,0 +1,72 @@
+.missionstatementmain {
+    margin-top: 95px; 
+    background-color: white; 
+    color: rgb(75, 68, 104);
+}
+
+.missiontitle {
+    padding-top: 15px; 
+    font-size: 20px; 
+    margin-left: 16px;
+}
+
+.missionImg {
+    display: block; 
+    width: 300px; 
+    height:175px; 
+    margin: 16px auto; 
+    border-radius: 20px;
+}
+
+.missionInfoContainer {
+    padding: 0 32px 16px;
+}
+
+.missionSubHeading {
+    padding-top: 16px; 
+    font-size: 17px; 
+    font-weight: 600;
+}
+
+.missionPara {
+    padding-top: 16px; 
+    font-size:17px; 
+    text-align: justify;
+    line-height: 1.25rem;
+}
+
+@media screen and (min-width: 700px) {
+    .missionImg {
+        width: 55%;
+        max-width: 600px;
+        height: 300px;
+    }
+
+    .missionInfoContainer {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .missiontitle {
+        font-size: 23px;
+    }
+
+    .missionSubHeading {
+        font-size: 20px;
+    }
+
+    .missionPara {
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+
+    .missionImg {
+        width: 250px; 
+        height:auto; 
+    }
+
+}

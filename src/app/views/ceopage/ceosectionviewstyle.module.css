@@ -1,0 +1,120 @@
+.ceoMain {
+    margin-top: 95px; 
+    background-color: white; 
+    color: rgb(75, 68, 104);
+}
+
+.ceoTitle {
+    padding-top: 16px; 
+    padding-left: 16px; 
+    font-size: 20px;
+}
+
+.ceoSection {
+    padding: 16px 0;
+}
+
+.ceoFacts {
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 16px;
+}
+
+.ceoImage {
+    display: block;
+    margin: 0 auto; 
+    width: auto; 
+    height: 200px; 
+    border-radius: 50%;
+}
+
+.ceoFactsInfo {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.ceoFactsInfo table {
+    margin-top: 32px; 
+    width: 320px;
+}
+
+.ceoFactsInfo table tr td {
+    padding-top: 5px;
+    padding-right: 16px;
+}
+
+.ceoBioContainer {
+    margin-top: 16px; 
+    padding: 0 32px; 
+    text-align: justify;
+    line-height: 1.25rem;
+}
+
+.ceobiopara1 {
+    margin-bottom: 8px;
+}
+
+.ceobiopara2 {
+    margin-bottom: 16px;
+}
+
+.ceoquote {
+    font-style: italic; 
+    font-size: 14px; 
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .ceoTitle {
+        font-size: 23px;
+    }
+
+    .ceoImage {
+        height: 240px;
+    }
+
+    .ceoFacts {
+        flex-direction: row-reverse;
+    }
+
+    .ceoFactsInfo {
+        width: 55%;
+    }
+
+    .ceoFactsInfo table {
+        margin: auto 0 0 auto; 
+        width: 400px;
+        height:fit-content;
+    }
+    
+    .ceoFactsInfo table tr td {
+        padding: 0 10px 5px 0;
+        font-size: 21px;
+    }
+
+    .ceoquote {
+        font-size: 16px;
+    }
+
+    .ceoBioContainer {
+        margin: 32px auto;
+        max-width: 1000px;
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .ceoFactsInfo {
+        width: 50%;
+    }
+    .ceoImage {
+        height: 290px;
+        margin: 0 auto 0 50px;
+    }
+
+    .ceoFactsInfo table {
+        margin: auto 0 auto auto;
+    }
+}

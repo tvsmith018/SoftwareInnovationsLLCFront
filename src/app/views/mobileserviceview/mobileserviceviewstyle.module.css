@@ -1,0 +1,38 @@
+.ServiceSectionHeader {
+    background-image: url(/mobileImgHead.jpeg);
+    width: 100%; 
+    height: 50vh; 
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerTint {
+    background-color: rgba(120, 66, 11, 0.9);
+    background-blend-mode: multiply;
+    color: white; 
+    font-family:JosefinSans; 
+    text-shadow: 1px 1px 2px darkred;
+}
+
+.innerHeaderContainer {
+    text-align: center; 
+    margin:0 auto;
+}
+
+.infoSection svg {
+    fill: rgb(75, 68, 104);
+}
+
+
+@media screen and (min-width: 992px) {
+    .ServiceSectionHeader {
+        height: 80vh; 
+    }
+}
+
+@media screen and (min-width: 992px) and (orientation: portrait) {
+    .ServiceSectionHeader {
+        height: 50vh; 
+    }
+}

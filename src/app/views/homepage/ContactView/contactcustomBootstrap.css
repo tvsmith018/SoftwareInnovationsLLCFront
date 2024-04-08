@@ -1,0 +1,3 @@
+.form_control .is-invalid {
+    border-bottom: 1px solid #fc5356;
+}

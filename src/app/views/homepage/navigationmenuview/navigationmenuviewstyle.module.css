@@ -1,0 +1,43 @@
+.navbarCustom {
+    background-color: #f5f5dc;
+    font-size: 18px;
+    width: 100%;
+    color: rgb(75, 68, 104); 
+}
+
+.navbarlogo {
+    height: 75px; 
+    width: 75px; 
+}
+
+.navCollapseButton {
+    margin-right: 16px;
+}
+
+.menuStyle {
+    background-color: #fbfbd2;
+}
+
+.customHover:hover, .customHover:focus{
+    background-color: #fbfbd2;
+}
+
+.togglerStyle {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .togglerStyle {
+        display: none;
+    }
+
+    .menuStyle {
+        background-color: #f5f5dc;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .navbarCustom {
+        /* padding: 0 16px; */
+    }
+}

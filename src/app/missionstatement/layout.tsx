@@ -1,16 +1,14 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Software Innovations LLC',
-  description: 'Software Innovations LLC Business Site',
+  title: 'Mission Statement',
+  description: 'Software Innovations Mission',
 }
 
-export default function RootLayout({
+export default function MissionLayout({
   children,
 }: {
   children: React.ReactNode

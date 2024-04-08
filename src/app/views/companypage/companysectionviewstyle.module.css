@@ -1,0 +1,128 @@
+.companyMain {
+    margin-top: 95px; 
+    background-color: white;
+}
+
+.companySection {
+    padding-top: 16px; 
+    color: rgb(75, 68, 104);
+}
+
+.companySection h3 {
+    font-size: 20px; 
+    padding-left: 16px;
+}
+
+.companySectionInfo {
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 32px;
+    width: 100%
+}
+
+.companyImage1 {
+    width: 275px; 
+    height: auto; 
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+
+.companySectionInfo ul {
+    list-style-type: circle; 
+    text-align: justify; 
+    line-height: 1.25rem; 
+    font-size: 17px; 
+    padding: 0 48px; 
+    margin-top: 24px;
+}
+
+.companySectionInfo ul li {
+    margin-bottom: 8px;
+}
+
+.companySectionInfo p {
+    padding: 16px 32px; 
+    text-align: justify; 
+    line-height: 1.25rem;
+    font-style: italic;
+}
+
+.softwareMethodsImg {
+    width: 100%;
+    height: auto;
+}
+
+.womanCoderImg {
+    width: 275px;
+    height: auto;
+    margin: 16px auto 0; 
+    border-radius: 20px;
+}
+
+.sectioninfoContainer, .sectioninfoContainerReverse {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 300px) {
+    .companyImage1, .womanCoderImg  {
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    .companySection h3 {
+        font-size: 23px;
+    }
+
+    .companyImage1 {
+        width: 450px;
+    }
+
+    .companySectionInfo ul {
+        width: 600px;
+        margin: 24px auto 0;
+        font-size: 20px;
+    }
+
+    .softwareMethodsImg {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .womanCoderImg {
+        width: 450px;
+    }
+
+    .companySectionInfo p {
+        padding: 0;
+        width: 500px;
+        margin: 32px auto;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .sectioninfoContainer {
+        flex-direction: row;
+    }
+
+    .sectioninfoContainerReverse {
+        flex-direction: row-reverse;
+    }
+
+    .companySectionInfo ul {
+        margin: auto;
+    }
+
+    .companySectionInfo p {
+        margin: auto;
+    }
+
+    .womanCoderImg {
+        margin-bottom: 32px;
+    }
+}
