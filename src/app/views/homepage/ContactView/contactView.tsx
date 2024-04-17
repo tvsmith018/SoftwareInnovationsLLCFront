@@ -57,8 +57,7 @@ class ContactView extends react.Component{
       });
       try {
         const res = await fetch(
-          // 'http://localhost:1337/inquiry/',
-          'http://192.168.1.71:1337/inquiry/',
+          'https://whispering-beyond-52824-4720ec3e5ef9.herokuapp.com/inquiry/',
           {
             method:'POST',
             body: JSON.stringify({
